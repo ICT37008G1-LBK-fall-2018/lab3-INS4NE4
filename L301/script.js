@@ -1,12 +1,11 @@
-var str = "საქართველოში მარკეტინგი და";
+let str = prompt("შეიყვანეთ ტექსტი:");
 
 if ( str.indexOf('მარკეტინგი') !== -1 || str.indexOf('რეკლამა') !== -1 || str.indexOf('ვირუსი') !== -1 )
 {
     alert('შეიცავს')
 }
-else{
-    alert(' ar შეიცავს')
+else
+{
+    alert('არ შეიცავს')
 }
-// alert( str.indexOf("მარკეტინგი") ); // 1
-// alert( str.indexOf("რეკლამა") ); // 11
-// alert( str.indexOf("ვირუსი") ); // -1
+
